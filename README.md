@@ -92,7 +92,8 @@ dynamic analysis.
 
 4.  **Build System:**
 
-    - Avoid build systems, use Unity Builds with detailed insturuction for manual compilation.
+    - Avoid build systems.
+    - Use well-documented Unity Builds with manual compilation.
 
 5.  **Debugging:**
   
