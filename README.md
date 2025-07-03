@@ -93,6 +93,10 @@ dynamic analysis.
 
     - Avoid build systems, use Unity Builds with detailed compilation instruction instead.
 
-5.  **Debugging:** Code structure and rules should facilitate easy debugging. Avoid complex expressions or side effects that obscure state.
+5.  **Debugging:**
+  
+    - Code structure and rules should facilitate easy debugging. Avoid complex expressions or side effects that obscure state.
 
-6.  **Documentation:** Not meaningfully seperated from code. Must be simple, correct, consistant, and complete. Failure to meet any of these standards is treated as a bug.
+8.  **Documentation:**
+
+    - Not meaningfully seperated from code. Must be simple, correct, consistant, and complete. Failure to meet any of these standards is treated as a bug.
