@@ -82,20 +82,22 @@ dynamic analysis.
 2.  **Static Analysis:**
 
     - Integrate *at least one* state-of-the-art static analyzer (e.g., Clang Static Analyzer, PVS-Studio, Cppcheck) into the development process.
-
-    - Run analysis daily (or on commit). Code *must* pass with zero warnings.
+    - Run analysis daily (or on commit).
+    - Code *must* pass with zero warnings.
 
 3.  **Dynamic Analysis:**
 
-    - *Always* build and run tests with AddressSanitizer (ASAN) enabled. Fix all reported issues immediately.
+    - *Always* build and run tests with AddressSanitizer (ASAN) enabled.
+    - Fix all reported issues immediately.
 
 4.  **Build System:**
 
-    - Avoid build systems, use Unity Builds with detailed compilation instruction instead.
+    - Avoid build systems, use Unity Builds with detailed insturuction for manual compilation.
 
 5.  **Debugging:**
   
-    - Code structure and rules should facilitate easy debugging. Avoid complex expressions or side effects that obscure state.
+    - Code structure and rules should facilitate easy debugging.
+    - Avoid complex expressions or side effects that obscure state.
 
 8.  **Documentation:**
 
