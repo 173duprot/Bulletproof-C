@@ -15,7 +15,7 @@ dynamic analysis.
 
 1.  **Simplicity is Paramount:**
 
-    - **Function Size:** Functions *must not* exceed 60 lines of code (excluding comments and blank lines). If a function is longer, refactor it.
+    - **Function Size:** Functions should *rarely* exceed 30 lines, and *must never* exceed 60 lines (excluding comments and blank lines). If a function is longer, refactor it.
 
     - **Control Flow:** Use only simple constructs.
 
