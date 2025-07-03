@@ -102,5 +102,6 @@ dynamic analysis.
 
 8.  **Documentation:**
 
-    - Not meaningfully seperated from code. Must be simple, correct, consistant, and complete.
+    - Not meaningfully seperated from code.
+    - Must be simple, correct, consistant, and complete.
     - Failure to meet any of these standards is treated as a bug.
