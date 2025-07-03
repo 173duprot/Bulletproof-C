@@ -91,6 +91,6 @@ dynamic analysis.
 
 4.  **Build System:**
 
-    - Avoid build systems, use Unity Builds.
+    - Avoid build systems, use Unity Builds with detailed compilation instruction instead.
 
 5.  **Debugging:** Code structure and rules should facilitate easy debugging. Avoid complex expressions or side effects that obscure state.
