@@ -4,18 +4,18 @@
 
 This guide defines a subset of C (using C23 standards) intended for
 mission-critical systems where failure is unacceptable. The goal is
-**zero bugs** (which is impossible) through simplicity, predictability,
-and rigorous verification. Clarity trumps cleverness. Code is written
-primarily for human understanding and secondarily for the machine.
-Data structures are fundamental; get them right, and the code often
-becomes self-evident. Every rule exists to eliminate potential errors
-and enhance static and dynamic analysis.
+**zero bugs** through simplicity, predictability, and rigorous
+verification. Clarity trumps cleverness. Code is written primarily
+for human understanding and secondarily for the machine. Data structures
+are fundamental; get them right, and the code often becomes self-evident.
+Every rule exists to eliminate potential errors and enhance static and
+dynamic analysis.
 
 **Core Rules:**
 
 1.  **Simplicity is Paramount:**
 
-    - **Function Size:** Functions *must not* exceed 30 lines of code (excluding comments and blank lines). If a function is longer, refactor it.
+    - **Function Size:** Functions *must not* exceed 60 lines of code (excluding comments and blank lines). If a function is longer, refactor it.
 
     - **Control Flow:** Use only simple constructs.
 
@@ -91,7 +91,6 @@ and enhance static and dynamic analysis.
 
 4.  **Build System:**
 
-    - Use Unity Builds (compiling all source files as a single
-      > translation unit). Avoid complex build systems and Makefiles.
+    - Avoid build systems, use Unity Builds.
 
 5.  **Debugging:** Code structure and rules should facilitate easy debugging. Avoid complex expressions or side effects that obscure state.
